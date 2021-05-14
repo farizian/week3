@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@font-face {
+    font-family: myFirstFont;
+    src: url(rubik_bold.woff);
+    font-weight: bold;
+ }
+footer{
+    background-color: #F8F8F8;
+    height: 360px;
+    display: flex;
+}
+.logo2{
+    /* width: 30%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.logo2 img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -180px;
+}
+.logo2 h1{
+    font-size: 15px;
+    font-weight: 800;
+    position: relative;
+    left: 11px;
+    bottom: -90px;
+}
+footer p{
+    margin-top: 100px;
+    margin-left: 145px;
+    font-size: 11px;
+    font-weight: 550;
+    font-family: 'rubik', sans-serif;
+    text-align: left;
+    color: #4F5665;
+    line-height: 20px;
+}
+footer .social{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    margin-left: 128px;
+}
+footer .credit{
+    margin-top: 5px;
+    color: #AFB5C0;
+    font-weight: normal;
+    font-size: 12px;
+}
+footer ol{
+    margin-top: 90px;
+    margin-left: 500px;
+    list-style-type: none;
+}
+footer ol b{
+    font-size: 13px;
+}
+footer ol li{
+    font-family: 'rubik', sans-serif;
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    cursor: pointer;
+}
+footer ol li:hover{
+    color: #6a4029;
+    font-weight: 600;
+}
+footer .part3 ol{
+    margin-left: 100px;
+ }

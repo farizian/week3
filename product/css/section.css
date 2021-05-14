@@ -58,6 +58,7 @@
       font-weight: 900;
       font-size: 20px;
       line-height: 20px;
+      color: #000000;
     }
     .row .card .harga{
       margin-top: -10px;
@@ -75,4 +76,10 @@
     }
     .row .card .veggie{
       margin-top: 70px;
+    }
+    .content .end{
+      color: #6A4029;
+      font-size: 15px;
+      margin: -150px 180px 0px;
+      font-weight: 500;
     }
