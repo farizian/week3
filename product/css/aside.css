@@ -1,16 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
-@font-face {
-    font-family: myFirstFont;
-    src: url(rubik_bold.woff);
-    font-weight: bold;
- }
-
 main{
     display: flex;
     font-family: 'Poppins', sans-serif;
 }
-
 aside{
     width: 25%;
     display: flex;
@@ -52,6 +43,11 @@ aside .content .promo .card{
     border-radius: 15px;
     width: 250px;
     height: 80px;
+    cursor: pointer;
+    transition-duration: 55ms;
+}
+aside .content .promo .card:hover{
+    transform: scale(1.1);
 }
 aside .content .promo .card .image img{
     width: 75px;
@@ -78,9 +74,15 @@ aside .content .action .btn{
     font-weight: 510;
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
+    transition-duration: 50ms;
+    cursor: pointer;
 }
-.content{
-    width: 70%;
+aside .content .action .btn:hover{
+    background-color: #ffba33;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #cccccc;
+    color: #6A4029;
+    transform: scale(1.1);
 }
 aside .terms ol{
     background-color: rgb(255, 255, 255);
@@ -107,4 +109,62 @@ aside .terms ol li{
 }
 .red{
     background-color: #C59378;
+}
+
+@media screen and (max-width: 576px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-right: 2px solid #eeeeee;
+    }
+    aside .header{
+        padding-top: 30px;
+    }
+    aside .header p{
+        width: 70%;
+        text-align: center;
+        font-size: 13px;
+    }
+    aside .content{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    aside .content .promo{
+        display: flex;
+        margin: 0 0 0 5%;
+        flex-direction: row;
+        width: 95%;
+        height: 120px;
+        overflow:scroll;
+    }
+    aside .content .promo .card{
+        padding: 10px 10px 10px 10px;
+        margin: 0 10px 0 5px;
+        height: 100px;
+    }
+    aside .content .promo .card .title{
+        width: 150px;
+        margin-left: 10px;
+    }
+    aside .content .promo .card .image img{
+        width: 75px;
+        height: 100px;
+        margin-top: 0;
+    }
+    aside .terms ol{
+        margin-left: -70px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
 }

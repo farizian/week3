@@ -2,7 +2,6 @@ footer{
     background-color: #F8F8F8;
     height: 460px;
     display: flex;
-
 }
 .logo2{
     display: flex;
@@ -14,18 +13,18 @@ footer{
 .logo2 img{
     width: 25px;
     height: 25px;
-    margin-right: 10px;
 }
 .logo2 h1{
     font-size: 20px;
     font-weight: 700;
+    left: 11px;
 }
 .part1 p{
     margin-top: 10px;
     margin-left: 145px;
     font-size: 15px;
     font-weight: 550;
-    font-family: rubik;
+    font-family: 'rubik', sans-serif;
     text-align: left;
     color: #4F5665;
     line-height: 20px;
@@ -58,7 +57,7 @@ footer ol b{
     font-size: 18px;
 }
 footer ol li{
-    font-family: rubik;
+    font-family: 'rubik', sans-serif;
     margin-top: 20px;
     font-size: 15px;
     font-weight: 400;
@@ -72,7 +71,6 @@ footer ol li:hover{
 footer .part3 ol{
     margin-left: 100px;
 }
-
 @media  screen and (max-width: 576px) {
     footer{
         background-color: #F8F8F8;
@@ -81,11 +79,11 @@ footer .part3 ol{
         display: flex;
         flex-direction: column;
         padding: 0;
-        margin-top: 0px;
+        margin-top: 20px;
     }
     .part1{
         width: 90%;
-        margin-left: 26px;
+        margin-left: 16px;
     }
     .logo2{
         display: flex;
